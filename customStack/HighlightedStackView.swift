@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HighlightedStackView: UIStackView, UIGestureRecognizerDelegate {
+class HighlightedStackView: UIStackView {
     private lazy var gestures = [UIView : UIGestureRecognizer]()
     
     private func add(_ view: UIView) -> UIView {
